@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+#container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    height:100vh;
+    gap:60px;
+}
+
+body{
+    background-color:black;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 20px;
+    cursor:pointer;
+}
