@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#container{
+    background-color:#000;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    gap:30px;
+    height: 100vh;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+#days{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#clock span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+ height: 100px;
+ width: 100px;
+ background-color: #fff;
+ color: #000;
+ border: 2px solid red;
+ border-radius: 5px;
+}
