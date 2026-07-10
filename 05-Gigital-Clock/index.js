@@ -22,4 +22,4 @@ setInterval(()=>{
    mintues.textContent =timer.getMinutes();
    sec.textContent=timer.getSeconds();
 //    milisec.textContent=timer.getMilliseconds();
-},1)
+},1000)
