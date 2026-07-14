@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: #000;
+    color: #fff;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 20px ;
+   
+}
+
+#form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question{
+    border: 2px solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 2rem; */
+    color: white;
+    width: 50%;
+    padding: 15px;
+    font-size : 1.4rem;
+    gap: 10px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+#submit{
+ padding: 10px 20px;
+ font-size: 2rem;
+ border: 2xp solid white;
+ border-radius: 5px;
+ width: 20%;
+ cursor: pointer;
+}
+
+#options{
+    display: flex;
+    gap:5px;
+    justify-content: start;
+    align-items: start;
+}
+
+input{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#score{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
