@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: #000;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   padding-top: 5rem;
+   gap: 2rem;
+ 
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+    width: 30%
+}
+
+label {
+    font-size: 2rem;
+}
+
+input{
+    padding: 10px 20px;
+    height: 2rem;
+    width: 100%;
+}
+
+button{
+    background-color: green;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+
+#task-list{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap:1rem;
+}
+
+li{
+    font-size: 2rem;
+    border: 2px solid white;
+    width: 100%;
+    color: white;
+    padding: 10px 40px;
+}
