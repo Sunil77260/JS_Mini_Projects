@@ -6,4 +6,33 @@
 body{
     height: 100vh;
     background-color: #000;
+    position: relative;
+}
+
+#circle{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    animation: grow 5s ease-out forwards;
+    position: absolute;
+}
+
+
+@keyframes  grow{
+
+    0%{
+        opacity: 100%;
+        transform: scale(1);
+
+    }
+
+    100%{
+     opacity: 0%;
+     transform: scale(3);
+    }
+    
 }
